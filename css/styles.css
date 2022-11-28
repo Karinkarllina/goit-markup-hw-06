@@ -906,8 +906,6 @@ body {
     transition: var(--tra);
     outline: transparent;
     cursor: pointer;
-
-
 }
 
 .comment-form::placeholder {
@@ -915,7 +913,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
-
 }
 
 
@@ -954,6 +951,7 @@ body {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    transition: var(--tra);
 
 }
 
@@ -968,3 +966,4 @@ body {
     border-color: var(--accent-color);
 
 }
+
