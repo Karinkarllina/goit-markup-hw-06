@@ -596,6 +596,8 @@ body {
     display: flex;
     margin-left: 93px;
     margin-right: 12px;
+    padding-left: 16px;
+    color: var(--primary-white-color);
 
 }
 
@@ -605,8 +607,8 @@ body {
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    padding-left: 16px;
 }
+
 
 .icon-footer-input {
     fill: var(--primary-white-color);
@@ -877,6 +879,7 @@ body {
 .input-wrap {
     position: relative;
     margin-bottom: 10px;
+    margin-top: 4px;
 }
 
 .modal-icon {
@@ -902,6 +905,7 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 20px;
+    margin-top: 4px;
     resize: none;
     transition: var(--tra);
     outline: transparent;
@@ -922,6 +926,9 @@ body {
 }
 
 .modal-field-policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
